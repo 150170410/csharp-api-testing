@@ -3,11 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITests", "APITests\APITests.csproj", "{9CC9D718-7698-405D-9BFA-BAB2460E3F2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APITests", "APITests\APITests.csproj", "{9CC9D718-7698-405D-9BFA-BAB2460E3F2E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0582C4BD-FE35-4880-9BC5-C14C36C45C25}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Environment", "Environment", "{4225C365-9E62-4BA8-92B5-8A6F187952B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{0B5102F7-D450-44E6-839F-8380F8F362A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts.GoogleBooksApi", "Contracts.GoogleBooksApi\Contracts.GoogleBooksApi.csproj", "{DC7CD2E6-425E-46A3-A1E9-9CA9F0F89F81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{4747713B-6AD1-438C-815D-5AC089731C5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.GoogleBooksApi", "Infrastructure.GoogleBooksApi\Infrastructure.GoogleBooksApi.csproj", "{BD94CA73-DAE1-426F-A830-E1FAF97C1F84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Items", "Shared.Items\Shared.Items.csproj", "{AF374A9F-91A2-4FF3-BAD2-57CC15721A7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{2BFF4596-670C-4EFF-9DAF-597D428B987C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +31,27 @@ Global
 		{9CC9D718-7698-405D-9BFA-BAB2460E3F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CC9D718-7698-405D-9BFA-BAB2460E3F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CC9D718-7698-405D-9BFA-BAB2460E3F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC7CD2E6-425E-46A3-A1E9-9CA9F0F89F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7CD2E6-425E-46A3-A1E9-9CA9F0F89F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7CD2E6-425E-46A3-A1E9-9CA9F0F89F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7CD2E6-425E-46A3-A1E9-9CA9F0F89F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD94CA73-DAE1-426F-A830-E1FAF97C1F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD94CA73-DAE1-426F-A830-E1FAF97C1F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD94CA73-DAE1-426F-A830-E1FAF97C1F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD94CA73-DAE1-426F-A830-E1FAF97C1F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF374A9F-91A2-4FF3-BAD2-57CC15721A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF374A9F-91A2-4FF3-BAD2-57CC15721A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF374A9F-91A2-4FF3-BAD2-57CC15721A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF374A9F-91A2-4FF3-BAD2-57CC15721A7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9CC9D718-7698-405D-9BFA-BAB2460E3F2E} = {0582C4BD-FE35-4880-9BC5-C14C36C45C25}
+		{DC7CD2E6-425E-46A3-A1E9-9CA9F0F89F81} = {4747713B-6AD1-438C-815D-5AC089731C5F}
+		{BD94CA73-DAE1-426F-A830-E1FAF97C1F84} = {0B5102F7-D450-44E6-839F-8380F8F362A1}
+		{AF374A9F-91A2-4FF3-BAD2-57CC15721A7F} = {2BFF4596-670C-4EFF-9DAF-597D428B987C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {59EDE697-F4F8-47EC-8BB6-4FD841D6C526}
