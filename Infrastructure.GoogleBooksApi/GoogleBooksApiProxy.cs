@@ -19,5 +19,11 @@ namespace Infrastructure.GoogleBooksApi
             request.AddParameter("volumeId", volumeId, ParameterType.UrlSegment);
             return await _client.ExecuteGetTaskAsync<Volume>(request);
         }
+        public async Task<IRestResponse<ErrorResponse>> GetVolumeErrorResponse(string volumeId)
+        {
+            var request = new RestRequest("volumes/{volumeId}");
+            request.AddParameter("volumeId", volumeId, ParameterType.UrlSegment);
+            return await _client.ExecuteGetTaskAsync<ErrorResponse>(request);
+        }
     }
 }
